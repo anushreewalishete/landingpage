@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@400;600&family=Poppins:wght@300;600&family=Work+Sans:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+div {
+  display: flex;
+}
+
+.nav-item a {
+  padding: 17px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(30deg, #e1ff00, black, #e1ff00);
+}
+
+.p1 {
+  padding: 22px;
+}
+.nav-logo h1 {
+  font-size: 40px;
+  color: black;
+}
+.fd-col-rev {
+  flex-direction: column-reverse;
+}
+
+.nav-item a:hover {
+  color: #e1ff00;
+}
+.hero {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 4rem;
+  padding: 26px;
+}
+.img-box img {
+  height: 35rem;
+}
+.content h1 {
+  color: aliceblue;
+  font-size: 3.5rem;
+  letter-spacing: 0.04rem;
+}
+.content h1 span {
+  color: #e1ff00;
+}
+
+.content button {
+  background-color: bisque;
+  border: 0.03rem solid #e96658;
+  font-size: 1.2rem;
+  color: chartreuse;
+  padding: 0.9rem 1.5rem;
+  letter-spacing: 0.08rem;
+  border-radius: 0.3rem;
+  transition: 0.5s ease-in-out;
+}
+.features {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+h5 {
+  color: aliceblue;
+}
+
+.cb-light-bg {
+  background-color: #151111;
+}
+.cb-light-t {
+  color: #151111;
+}
+.sellers {
+  padding: 100px 16px;
+  flex-direction: column;
+}
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  color: #e1ff00;
+  text-align: center;
+}
+.cb-sum {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0px;
+}
+.cb-inf {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+}
+h3 {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 20px;
+}
+.seller-images {
+  margin-top: 60px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.seller-images .img-container {
+  padding: 0;
+  justify-content: space-between;
+  width: 40%;
+  flex-direction: column;
+}
+.imgdiv {
+  height: 200px;
+  width: 51%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+.cb-f {
+  font-family: "Poppins", Arial, sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.cb-d {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.p-2 {
+  padding: 60px 40px;
+}
+.contact h3 {
+  margin-top: 0;
+  font-weight: 600;
+}
+.contact-form {
+  width: 70%;
+  flex-direction: column;
+}
+.contact-details {
+  width: 30%;
+}
+.contact p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: grey;
+}
+.form-row {
+  flex-direction: column;
+  margin-top: 30px;
+}
+.form-row label {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+.form-row input {
+  padding: 20px 0;
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+}
+.sp-row {
+  justify-content: space-between;
+}
+.sp-row .form-row {
+  width: 46%;
+}
+.contact-details {
+  flex-direction: column;
+}
+.contact-details h3 {
+  color: rgb(123, 76, 76);
+}
+.contact-details p {
+  color: rgb(113, 80, 80);
+}
+.contact-details .details-row * {
+  color: rgb(239, 195, 195);
+}
+.details-row {
+  margin-top: 20px;
+  align-items: center;
+}
+.details-row .logo {
+  border-radius: 50%;
+  border: 1px solid rgb(79, 45, 45);
+  min-height: 40px;
+  min-width: 40px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.details-row .info {
+  padding-left: 20px;
+  font-size: 14px;
+}
+h4 {
+  color: black;
+  align-items: left;
+}
